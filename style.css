@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Yusei+Magic&display=swap');
+
+
+body {
+    background-color: #8b5e83;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+
+
+
+p {
+    margin: 10px;
+    color: #312c51;
+    font-size: 1em;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+
+  /* unvisited link */
+   a:link {
+    color: #f0c38e
+  }
+  
+  /* visited link */
+   a:visited {
+    color: #f0c38e;
+  }
+  
+  /* mouse over link */
+   a:hover {
+    color: #f0c38e;
+    background-color: #312c51;
+  }
+ 
