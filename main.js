@@ -26,3 +26,4 @@ for (let i = 0; i < links.length; i++) {
     
 }
 document.querySelector('div.weekList').appendChild(listy);
+*/
