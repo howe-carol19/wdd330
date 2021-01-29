@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Week 4</title>
+</head>
+
+<body>
+
+<h1> FORMS </h1> 
+
+<p> Made up of a form element that contains form controls. </p>
+
+<h2> Form properties and methods </h2>
+
+<p>Form objects have a number of useful properties and methods taht can be used to interact with the form. The form.submit() will submit the form automatically.
+The form.reset() method will reset all the form controls back to their initial values specified in the html. The form.action property can be used to set the action attribute of a form  so it sends to a different URL to be processed by the server.  </p>
+
+
+
+
+
+<h1> FORM EVENTS </h1>
+
+<p>The focus event occurs when an element is focused on. In the case of inour this is when the cursor is placed inside the element. </p>
+
+<p> const input = form.elements.searchInput;
+input.addEventListener('focus', () => alert('focused'), false); </p>
+
+
+<h2>Submitting a form </h2>
+
+<p>The most important event is when we submit the form. The content of the form wi sent tothe server to be processed.
+We can use JavaScript to intercept the form before it’s sent by adding a submit event listener. Add the following code to the main.js file: </p>
+
+<p>const form = document.forms['search']; <br> 
+form.addEventListener ('submit', search, false); <br>
+function search() { <br>
+    alert(' Form Submitted'); } <br>  </p>
+
+
+<h2> Retrieving and changing values from a  form. </h2>
+
+<p>We can use this to report back what the user has searched for. Edit the search() function to the following: </p>
+
+<h3>Form Controls </h3>
+<p> In our previous search example, we only used the input and button form controls. But there are others that can help to make our web pages more interactive.
+Some common types of form control are: </p>
+    
+ <p> INPUT fields, including text, passwords, check boxes, radio buttons, and file uploads
+ SELECT menus for drop-down lists of options
+ TEXTAREA elements for longer text entry
+ BUTTON elements for submitting and resetting forms </p>
+    
+</body>
+</html>
