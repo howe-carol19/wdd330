@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+* {
+    background-color: #ffc1b6;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+h1 {
+    background-color: #ffdcb8;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+h3 {
+    background-color: #cfdac8;
+    font-size: 2em;
+    width: 6em;
+    text-align: center;
+}
+
+#ourForm {
+    font-size: 3em;
+}
+
+button {
+    width: 4em;
+    font-size: 20px;
+    
+}
