@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Week 5</title>
+</head>
+
+<body>
+
+<h1> Further Actions </h1> 
+
+<h1> Function Properties and Methods </h1>
+
+<p> Functions are first class objects because they can have properties and methods. </p>
+
+<p>  the call() method can set the value of this inside the function to an object that is provided as the first argument..  </p>
+
+<h2>Memoization</h2>
+<p>There is nothing to stop you adding your own properties to functions in the same way that you can add properties to any object in JavaScript</p>>
+
+<h3>Test</h3>
+<p>A useful feature of this is that it provides result caching, or memoization. If a function takes some time to compute a return value, we can 
+    save the result in a cache property. Then if the same argument is used again later, we can return the value from the cache, rather than having to compute the result again.</p>
+<h2> Temporary Variables</h2>
+
+<p>There is no way to remove a variable from a scope once it’s been declared. If a variable is only required temporarily, it may cause confusion if it’s still available later 
+    in the code. Even worse, the name of the variable may clash with another piece of code (an external JavaScript library, for example) resulting in errors. Placing any code 
+    that uses the temporary variable inside an IIFE will ensure it’s only available while the IIFE is invoked, then it will disappear. </p>
+
+
+<h1>AJAX</h1>
+
+<p>Ajax is a technique that allows web pages to communicate asynchronously with a server, and it dynamically updates web pages without reloading. This enables data to be sent 
+    and received in the background, as well as portions of a page to be updated in response to user events, while the rest of the program continues to run.</p>
+<h1>Clients and Servers </h1>
+<p>The web of computers known as the internet can be separated into two parts: clients and servers. A client, such as a web browser, will request a resource (usually a web page) 
+    from a server, which processes the request and sends back a response to the client.</p>
+<p> Consequently, a server is required when requesting resources using Ajax. Typically this involves using a server-side language, such as PHP, Ruby, Node.js, or .NET to serve the 
+    data response following an Ajax request (usually from a back-end database). To practice using Ajax, you can either set up a local development server on your own computer, or 
+    request the files from an external website that uses cross-origin resource sharing (CORS) in order to avoid the same-origin policy that browsers enforce. All the examples in 
+    this chapter can be run without having to set up a local development server, although it may be worth looking into if you wish to do a lot of Ajax or server-side development.</p>
+
+<p> The Fetch API provides a global fetch() method that only has one mandatory argument, which is the URL of the resource you wish to fetch. </p>
+<p> The redirect() method can be used to redirect to another URL. It creates a new promise that resolves to the response from the redirected URL.</p>
+
+</body>
+</html>
