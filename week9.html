@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Week 8</title>
+</head>
+
+<body>
+
+<h1> The data- attribute </h1>
+
+<p> The data- attribute is a way of embedding data in a web page using custom attributes
+    that are ignored by the browser. They’re also private to a page, so are not intended 
+    to be used by an external service – their sole purpose is to be used by a JavaScript 
+    program. This means they’re perfect for adding data that can be used as a hook that 
+    the program utilizes to access information about a particular element on the page.
+</p>
+
+
+
+<h2>HTML5 APIs</h2>
+<p>The HTML5 specification contains a number of APIs that help to gain access to hardware, 
+    such as cameras, batteries, geolocation, and the graphics card. Hardware evolves quickly, 
+    and APIs are frequently introduced to give developers access, and control new features 
+    that appear in the latest devices. </p>>
+
+<h3>WEB STORAGE</h3>
+<p>The Web Storage API provides a key-value store on the client’s computer that is similar to 
+    using cookies but has fewer restrictions, more storage capacity, and is generally easier to use. 
+    This makes it perfect for storing information about users, as well as storing application-specific 
+    information that can then be used during future sessions.</p>
+    
+    <p>If a browser supports the Web Storage API, the window object will have a property called localStorage , 
+        which is a native object with a number of properties and methods used to store data. The information is 
+        saved in the form of key-value pairs, and the values can only be strings. There is also a sessionStorage
+         object that works in the same way, although the data is only saved for the current session.</p>
+
+<h2> GEOLOCATION</h2>
+
+<p>The Geolocation API is used to obtain the geographical position of the device. 
+    This means it can be used to find the user’s exact location, then link to nearby places or measure the speed 
+    at which the user is moving. This information can then be used to filter data based on the user's location or 
+    speed and direction of travel. An example of this might be a search function that returns results based on your 
+    location. Because of privacy concerns, permission to use this has to be granted by the user first. </p>
+
+
+<h1>THE WINDOW OBJECT</h1>
+
+<p> Every JavaScript environment has aglobal object. Any variables that are created in the global scope are actually 
+    properties of this object, and any functions are methods of it. In a browser environment the global object is the 
+    window object, which represents the browser window that contains a web page.</p>
+
+
+    <h1>Canvas versus SVG </h1>
+<p> The Browser Object Model (or BOM for short) is a collection of properties and methods that contain information about 
+    the browser and computer screen. For example, we can find out which browser is being used to view a page (though, 
+    this method is unreliable). We can also find out the dimensions of the screen it is viewed on, and which pages have been 
+    visited before the current page. It can also be used for the rather dubious practice of creating pop-up windows, 
+    if you’re into annoying your users.</p>
+
+   <p>There is no official standard for the BOM, although there are a number of properties and methods that are supported 
+    by all the major browsers, making a sort of de facto standard. These properties and methods are made available through 
+    the window object. Every browser window, tab, popup, frame, and iframe has a window object. </p>
+
+
+
+</body>
+</html>
